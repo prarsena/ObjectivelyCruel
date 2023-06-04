@@ -83,7 +83,8 @@
     /* These attributes describe the Title section of the window. */
     [self.pageHeader setFont:[NSFont systemFontOfSize:33]];
     //[self.pageHeader setFont:[NSFont boldSystemFontOfSize:33]];
-    [self.pageHeader setAlignment: NSTextAlignmentCenter];
+    //[self.pageHeader setAlignment: NSTextAlignmentCenter];
+	[self.pageHeader setAlignment: NSCenterTextAlignment];
     [self.pageHeader setEditable: NO];
     [self.pageHeader setSelectable: NO];
     [self.pageHeader setBackgroundColor: [NSColor colorWithCssDefinition:@"dodgerblue"]];
