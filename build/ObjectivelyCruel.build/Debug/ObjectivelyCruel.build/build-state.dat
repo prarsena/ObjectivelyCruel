@@ -1,0 +1,201 @@
+TObjectivelyCruel
+v7
+r0
+t707516549.121627
+cCheck dependencies
+cProcessInfoPlistFile /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Info.plist ObjectivelyCruel-Info.plist
+cCopyStringsFile /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/petera/Developer/ObjectivelyCruel/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch.gch ObjectivelyCruel_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/main.o /Users/petera/Developer/ObjectivelyCruel/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruelAppDelegate.o /Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/MacOS/ObjectivelyCruel normal x86_64
+cTouch /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c0000000062EAB72800000000000000EE
+t1659549480
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/petera/Developer/ObjectivelyCruel/English.lproj/InfoPlist.strings
+c00000000647BA073000000000000002D
+t1685823603
+s45
+
+N/Users/petera/Developer/ObjectivelyCruel/English.lproj/MainMenu.xib
+c00000000647BA073000000000002BBCE
+t1685823603
+s179150
+
+N/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.h
+c00000000647BA0BF0000000000000320
+t1685823679
+s800
+i<Cocoa/Cocoa.h>
+
+N/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m
+c00000000647BA0D00000000000001777
+t1685823696
+s6007
+i"ObjectivelyCruelAppDelegate.h"
+
+N/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruel_Prefix.pch
+c00000000647BA07300000000000000A3
+t1685823603
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app
+t1685823749
+s102
+
+N/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Info.plist
+t1685823745
+s913
+
+N/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/MacOS/ObjectivelyCruel
+t1685823749
+s22792
+
+N/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/PkgInfo
+t1685823745
+s8
+
+N/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1685823745
+s92
+
+N/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj/MainMenu.nib
+t1685823745
+s34520
+
+N/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruel.LinkFileList
+c00000000647BA1010000000000000117
+t1685823745
+s279
+
+N/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruelAppDelegate.o
+t1685823749
+s49636
+
+N/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/main.o
+t1685823749
+s16744
+
+N/Users/petera/Developer/ObjectivelyCruel/main.m
+c00000000647BA0F700000000000001D2
+t1685823735
+s466
+i<Cocoa/Cocoa.h>
+i"ObjectivelyCruelAppDelegate.h"
+
+N/var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch.gch
+t1685823748
+s54298384
+
+NObjectivelyCruel-Info.plist
+c00000000647BA07300000000000003EA
+t1685823603
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies707516544#707516545#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruelAppDelegate.o /Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s707516548.876194
+e707516549.081311
+r1
+xCompileC
+xbuild/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruelAppDelegate.o
+x/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'preferencesWindowController' requires method '-preferencesWindowController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'preferencesWindowController' requires the method 'setPreferencesWindowController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'menu' requires method '-menu' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'menu' requires the method 'setMenu:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@78"Compile /Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m707516548#707516549#0(914"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'preferencesWindowController' requires method '-preferencesWindowController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'preferencesWindowController' requires the method 'setPreferencesWindowController:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'menu' requires method '-menu' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m:169: warning: property 'menu' requires the method 'setMenu:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@162"Property 'preferencesWindowController' requires method '-preferencesWindowController' to be defined - use @synthesize, @dynamic or provide a method implementation707516548#0#248#0(6@70"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m707516496#169#0#169#0#0"0(22@169"Property 'preferencesWindowController' requires the method 'setPreferencesWindowController:' to be defined - use @synthesize, @dynamic or provide a method implementation707516548#248#255#0(6@70"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m707516496#169#0#169#0#0"0(22@116"Property 'menu' requires method '-menu' to be defined - use @synthesize, @dynamic or provide a method implementation707516548#503#202#0(6@70"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m707516496#169#0#169#0#0"0(22@123"Property 'menu' requires the method 'setMenu:' to be defined - use @synthesize, @dynamic or provide a method implementation707516548#705#209#0(6@70"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m707516496#169#0#169#0#0"0(0#0#70"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m4300882208#1698"    cd /Users/petera/Developer/ObjectivelyCruel    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-generated-files.hmap -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-own-target-headers.hmap -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-all-target-headers.hmap -iquote /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-project-headers.hmap -F/Users/petera/Developer/ObjectivelyCruel/build/Debug -I/Users/petera/Developer/ObjectivelyCruel/build/Debug/include -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/DerivedSources/x86_64 -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/DerivedSources -include /var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch -c /Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruelAppDelegate.m -o /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruelAppDelegate.o0#
+
+CCompileC build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/main.o /Users/petera/Developer/ObjectivelyCruel/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s707516548.874403
+e707516549.056147
+r1
+xCompileC
+xbuild/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/main.o
+x/Users/petera/Developer/ObjectivelyCruel/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/petera/Developer/ObjectivelyCruel/main.m707516548#707516549#0(0"0(0#0#47"/Users/petera/Developer/ObjectivelyCruel/main.m4300882208#1652"    cd /Users/petera/Developer/ObjectivelyCruel    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-generated-files.hmap -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-own-target-headers.hmap -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-all-target-headers.hmap -iquote /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-project-headers.hmap -F/Users/petera/Developer/ObjectivelyCruel/build/Debug -I/Users/petera/Developer/ObjectivelyCruel/build/Debug/include -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/DerivedSources/x86_64 -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/DerivedSources -include /var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch -c /Users/petera/Developer/ObjectivelyCruel/main.m -o /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/petera/Developer/ObjectivelyCruel/English.lproj/MainMenu.xib
+s707516545.087615
+e707516545.512634
+r1
+xCompileXIB
+x/Users/petera/Developer/ObjectivelyCruel/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib707516545#707516545#0(0"0(0#0#67"/Users/petera/Developer/ObjectivelyCruel/English.lproj/MainMenu.xib4300882208#342"    cd /Users/petera/Developer/ObjectivelyCruel    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj/MainMenu.nib /Users/petera/Developer/ObjectivelyCruel/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s707516545.086667
+e707516545.340553
+r1
+xCopyStringsFile
+x/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings707516545#707516545#0(0"0(0#0#72"/Users/petera/Developer/ObjectivelyCruel/English.lproj/InfoPlist.strings4300882208#378"    cd /Users/petera/Developer/ObjectivelyCruel    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Resources/English.lproj0#
+
+CLd /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/MacOS/ObjectivelyCruel normal x86_64
+s707516549.081411
+e707516549.118784
+r1
+xLd
+x/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/MacOS/ObjectivelyCruel
+xnormal
+xx86_64
+lSLF07#2@110"Link /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/MacOS/ObjectivelyCruel707516549#707516549#0(0"0(0#0#0"4300882208#597"    cd /Users/petera/Developer/ObjectivelyCruel    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/petera/Developer/ObjectivelyCruel/build/Debug -F/Users/petera/Developer/ObjectivelyCruel/build/Debug -filelist /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/Objects-normal/x86_64/ObjectivelyCruel.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/MacOS/ObjectivelyCruel0#
+
+CProcessInfoPlistFile /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Info.plist ObjectivelyCruel-Info.plist
+s707516545.082816
+e707516545.086552
+r1
+xProcessInfoPlistFile
+x/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Info.plist
+xObjectivelyCruel-Info.plist
+lSLF07#2@35"Process ObjectivelyCruel-Info.plist707516545#707516545#0(0"0(0#0#68"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruel-Info.plist4300882208#343"    cd /Users/petera/Developer/ObjectivelyCruel    builtin-infoPlistUtility ObjectivelyCruel-Info.plist -genpkginfo /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch.gch ObjectivelyCruel_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s707516545.512760
+e707516548.874003
+r1
+xProcessPCH
+x/var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch.gch
+xObjectivelyCruel_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile ObjectivelyCruel_Prefix.pch707516545#707516548#0(0"0(0#0#68"/Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruel_Prefix.pch4300882208#1547"    cd /Users/petera/Developer/ObjectivelyCruel    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-generated-files.hmap -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-own-target-headers.hmap -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-all-target-headers.hmap -iquote /Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/ObjectivelyCruel-project-headers.hmap -F/Users/petera/Developer/ObjectivelyCruel/build/Debug -I/Users/petera/Developer/ObjectivelyCruel/build/Debug/include -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/DerivedSources/x86_64 -I/Users/petera/Developer/ObjectivelyCruel/build/ObjectivelyCruel.build/Debug/ObjectivelyCruel.build/DerivedSources -c /Users/petera/Developer/ObjectivelyCruel/ObjectivelyCruel_Prefix.pch -o /var/folders/ip/ip44yJEcHNi2N5FRcS478++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ObjectivelyCruel_Prefix-gsuajwucqrjxvrfijmdlsuydpcpz/ObjectivelyCruel_Prefix.pch.gch0#
+
+CTouch /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app
+s707516549.118876
+e707516549.121585
+r1
+xTouch
+x/Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app
+lSLF07#2@79"Touch /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app707516549#707516549#0(0"0(0#0#0"4300882208#144"    cd /Users/petera/Developer/ObjectivelyCruel    /usr/bin/touch -c /Users/petera/Developer/ObjectivelyCruel/build/Debug/ObjectivelyCruel.app0#
+
