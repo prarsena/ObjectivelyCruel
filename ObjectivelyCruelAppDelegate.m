@@ -8,6 +8,7 @@
 
 #import "ObjectivelyCruelAppDelegate.h"
 #import "ColorPanelWindowController.h"
+#import "nscolor-colorWithCssDefinition.h"
 
 @implementation ObjectivelyCruelAppDelegate
 

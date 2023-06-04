@@ -155,11 +155,11 @@ static NSDictionary *map_ = nil;
     [pool drain];
 }
 
-+ (NSColor*)colorWithCssDefinition:(NSString*)name {
++ (NSColor *)colorWithCssDefinition:(NSString*)name {
     return [map_ objectForKey:name];
 }
 
-+ (NSArray*)allKeysFromDictionary {
++ (NSArray *)allKeysFromDictionary {
     return [map_ allKeys];
 }
 
