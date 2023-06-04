@@ -17,6 +17,9 @@
     
     NSTextView *textView;
     NSTextView *pageHeader;
+	
+	NSWindowController *colorPanelWindowController;
+	NSMenu *menu;
 }
 
 @property (assign) NSWindow *window;

@@ -17,6 +17,8 @@
 @synthesize colorButton;
 @synthesize textView;
 @synthesize pageHeader;
+@synthesize colorPanelWindowController;
+@synthesize menu;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
@@ -164,7 +166,8 @@
     NSLog(@"Show preferences");
     
     if (!self.colorPanelWindowController) {
-        self.colorPanelWindowController = [[ColorPanelWindowController alloc] init];
+		NSLog(@"self is not colorPanelWind");
+        self.colorPanelWindowController = [[ColorPanelWindowController alloc] initWithCustomWindow];
     }
     [self.colorPanelWindowController showWindow:self];
 

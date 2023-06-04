@@ -12,32 +12,44 @@
 
 @implementation ColorPanelWindowController
 
-- init {
-    
-    NSRect windowFrame = NSMakeRect(200,200,1020,600);
+@synthesize button;
+@synthesize windowFrame;
 
+- (id)initWithCustomWindow {
+	NSWindow *window = [self goOnMakeWindow];
+		self = [super initWithWindow:window];
+		if (self) { 
+			NSLog(@"self");
+		}
+	return self;
+}
+
+- (NSWindow *)goOnMakeWindow {
+    
 #if MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_6
-    NSWindow *colorPanelWindow = [[NSWindow alloc] initWithContentRect: windowFrame
+	NSRect windowFrame = NSMakeRect(200,200,1020,600);
+	NSWindow *colorPanelWindow = [[NSWindow alloc] initWithContentRect: windowFrame
                                               styleMask: NSWindowStyleMaskTitled |
                                                            NSWindowStyleMaskResizable |
                                                            NSWindowStyleMaskClosable
                                                 backing: NSBackingStoreBuffered
                                                   defer: NO];
-    NSLog(@"Found greater os than snow" );
+    NSLog(@"Found greater os than snow in the PANEL" );
 #else
-    NSWindow *colorPanelWindow = [[NSWindow alloc] initWithContentRect: windowFrame
+	NSWindow *colorPanelWindow = [[NSWindow alloc] initWithContentRect: NSMakeRect(200,200,1020,600)
                                               styleMask:   NSTitledWindowMask |
                                                            NSResizableWindowMask |
                                                            NSMiniaturizableWindowMask |
                                                            NSClosableWindowMask
                                                 backing: NSBackingStoreBuffered
                                                   defer: NO];
-    NSLog(@"Found os x snow" );
-#endif
-
+    NSLog(@"Found os x snow in the PANEL" );
+#endif 
+	/*
     self = [super initWithWindow:colorPanelWindow];
     if (self) {
-        [colorPanelWindow setTitle:@"Color Panel"];
+	 */
+        colorPanelWindow.title = @"Color Panel";
         
         NSArray *keys = [NSColor allKeysFromDictionary];
 
@@ -61,19 +73,21 @@
             }
             i++;
             
-            [self.window.contentView addSubview:textView];
+            [colorPanelWindow.contentView addSubview:textView];
         }
         
         // Create the button
-        self.button = [[NSButton alloc] initWithFrame:NSMakeRect(920, 100, 80, 32)];
-        self.button.title = @"Close";
-        [self.button setBordered: YES];
-        [self.button setFont: [NSFont systemFontOfSize:14]];
-        [self.button setTarget:self];
-        [self.button setAction:@selector(closeWindow:)];
-        [self.window.contentView addSubview:self.button];
-    }
-    return self;
+	
+        button = [[NSButton alloc] initWithFrame:NSMakeRect(920, 100, 80, 32)];
+		[button setTitle: @"Close"];
+        [button setBordered: YES];
+        [button setFont: [NSFont systemFontOfSize:14]];
+        [button setTarget:self];
+        [button setAction:@selector(closeWindow:)];
+        [colorPanelWindow.contentView addSubview:self.button];
+    
+	
+    return colorPanelWindow;
 }
 
 - (void) closeWindow:(id)sender {
