@@ -247,7 +247,7 @@
 				INFOPLIST_FILE = "ObjectivelyCruel-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = ObjectivelyCruel;
 			};
 			name = Debug;
@@ -263,7 +263,7 @@
 				INFOPLIST_FILE = "ObjectivelyCruel-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = ObjectivelyCruel;
 			};
 			name = Release;
@@ -276,11 +276,11 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 				PREBINDING = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.14;
 			};
 			name = Debug;
 		};
@@ -291,10 +291,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_LDFLAGS = "$(inherited)";
 				PREBINDING = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.14;
 			};
 			name = Release;
 		};
