@@ -12,7 +12,7 @@
 
 @implementation ColorPanelWindowController
 
-- initWithWindow {
+- init {
     
     NSRect windowFrame = NSMakeRect(200,200,1020,600);
 
