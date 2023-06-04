@@ -17,6 +17,7 @@
     
     NSTextView *textView;
     NSTextView *pageHeader;
+	NSTextView *subheader;
 	
 	NSWindowController *colorPanelWindowController;
 	NSMenu *menu;
@@ -28,10 +29,13 @@
 @property (assign) NSButton *colorButton;
 @property (assign) NSTextView *textView;
 @property (assign) NSTextView *pageHeader;
+@property (assign) NSTextView *subheader;
+
 
 @property (assign) NSWindowController *colorPanelWindowController;
 @property (assign) NSMenu *menu;
 
+- (void)urlButtonClicked:(id)sender;
 - (void)buttonClicked:(id)sender;
 - (void)showPreferences:(id)sender;
 - (void)quitApplication:(id)sender;

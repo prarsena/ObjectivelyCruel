@@ -9,6 +9,7 @@ static NSDictionary *map_ = nil;
 
 + (void)load {
     NSAutoreleasePool *pool = [NSAutoreleasePool new];
+	//NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     map_ = [[NSDictionary alloc] initWithObjectsAndKeys:
             [NSColor colorWithCalibratedRed:0.9411764705882353 green:0.9725490196078431 blue:1 alpha:1.0], @"aliceblue",
             [NSColor colorWithCalibratedRed:0.9803921568627451 green:0.9215686274509803 blue:0.8431372549019608 alpha:1.0], @"antiquewhite",
@@ -152,7 +153,8 @@ static NSDictionary *map_ = nil;
             [NSColor colorWithCalibratedRed:1 green:1 blue:0 alpha:1.0], @"yellow",
             [NSColor colorWithCalibratedRed:0.6039215686274509 green:0.803921568627451 blue:0.19607843137254902 alpha:1.0], @"yellowgreen",
             nil];
-    [pool drain];
+    //[pool drain];
+	[pool release];
 }
 
 + (NSColor *)colorWithCssDefinition:(NSString*)name {
