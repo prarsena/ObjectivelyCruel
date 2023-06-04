@@ -29,10 +29,11 @@
 #if MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_6
 	NSRect windowFrame = NSMakeRect(200,200,1020,600);
 	NSWindow *colorPanelWindow = [[NSWindow alloc] initWithContentRect: windowFrame
-                                              styleMask: NSWindowStyleMaskTitled |
+                                                styleMask: NSWindowStyleMaskTitled    |
                                                            NSWindowStyleMaskResizable |
-                                                           NSWindowStyleMaskClosable
-                                                backing: NSBackingStoreBuffered
+                                                           NSWindowStyleMaskClosable  |
+                                                           NSWindowStyleMaskMiniaturizable
+                                               backing: NSBackingStoreBuffered
                                                   defer: NO];
     NSLog(@"Found greater os than snow in the PANEL" );
 #else

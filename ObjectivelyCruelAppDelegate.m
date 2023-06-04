@@ -57,13 +57,15 @@
     
 #if MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_6
     self.window = [[NSWindow alloc] initWithContentRect: windowFrame
-                                              styleMask: NSTitledWindowMask |
-                                                         NSClosableWindowMask |
-                                                         NSResizableWindowMask
+                                              styleMask: NSWindowStyleMaskTitled |
+                                                           NSWindowStyleMaskClosable |
+                                                           NSWindowStyleMaskResizable |
+                                                           NSWindowStyleMaskMiniaturizable
                                                 backing: NSBackingStoreBuffered
                                                   defer: NO];
     self.window.title = @"Not Snow Leopard";
     self.pageHeader.string = @"Not Snow Leopard";
+    [self.pageHeader setAlignment: NSTextAlignmentCenter];
     NSLog(@"Found greater os than snow" );
 #else
     self.window = [[NSWindow alloc] initWithContentRect: windowFrame
@@ -75,6 +77,7 @@
                                                   defer: NO];
     self.window.title = @"Snow Leopard";
     self.pageHeader.string = @"Whoa Leopard";
+    [self.pageHeader setAlignment: NSCenterTextAlignment];
     NSLog(@"Found os x snow" );
 #endif
     /* Main window color */
@@ -84,8 +87,6 @@
     /* These attributes describe the Title section of the window. */
     [self.pageHeader setFont:[NSFont systemFontOfSize:33]];
     //[self.pageHeader setFont:[NSFont boldSystemFontOfSize:33]];
-    //[self.pageHeader setAlignment: NSTextAlignmentCenter];
-	[self.pageHeader setAlignment: NSCenterTextAlignment];
     [self.pageHeader setEditable: NO];
     [self.pageHeader setSelectable: NO];
     [self.pageHeader setBackgroundColor: [NSColor colorWithCssDefinition:@"dodgerblue"]];
