@@ -272,12 +272,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+=======
+				LD_RUNPATH_SEARCH_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+>>>>>>> sdk10.6
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-v";
 				OTHER_LDFLAGS = "$(inherited)";
 				PREBINDING = NO;
 				SDKROOT = macosx10.14;
@@ -288,10 +296,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+=======
+				LD_RUNPATH_SEARCH_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "-v";
+>>>>>>> sdk10.6
 				OTHER_LDFLAGS = "$(inherited)";
 				PREBINDING = NO;
 				SDKROOT = macosx10.14;
