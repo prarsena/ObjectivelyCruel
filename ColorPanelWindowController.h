@@ -9,6 +9,7 @@
 
 @interface ColorPanelWindowController : NSWindowController
 
+
 @property (assign) NSButton *button;
 @property (assign) NSTextView *pageHeader;
 

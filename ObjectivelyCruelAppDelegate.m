@@ -95,7 +95,7 @@
     // Create the close window button without declaring it.
     NSButton *closeButton = [[NSButton alloc] initWithFrame:NSMakeRect(230, 30, 100, 32)];
     [closeButton setTitle: @"Close"];
-    closeButton.bordered = YES;
+    //closeButton.bordered = YES;
     closeButton.target = self;
     [closeButton setFont: [NSFont systemFontOfSize:14]];
     [closeButton setAction:@selector(quitApplication:)];
