@@ -23,6 +23,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
+    NSOperatingSystemVersion systemVersion = [[NSProcessInfo processInfo] operatingSystemVersion];
+    NSString *versionString = [NSString stringWithFormat:@"%ld.%ld.%ld", systemVersion.majorVersion, systemVersion.minorVersion, systemVersion.patchVersion];
+    NSLog(@"%@", versionString);
+    
     /* Create the menu bar */
     NSMenu *menuBar = [[NSMenu alloc] init];
     NSMenuItem *applicationMenuItem = [[NSMenuItem alloc] init];
@@ -64,7 +68,12 @@
                                                 backing: NSBackingStoreBuffered
                                                   defer: NO];
     self.window.title = @"Not Snow Leopard";
-    self.pageHeader.string = @"Not Snow Leopard";
+    //self.pageHeader.string = @"Not Snow Leopard: %@", versionString;
+
+    NSString *originalString = @"Your OS is ";
+    NSString *concatedString = [originalString stringByAppendingString:versionString];
+    
+    [self.pageHeader setString:(@"%@", concatedString)];
     [self.pageHeader setAlignment: NSTextAlignmentCenter];
     NSLog(@"Found greater os than snow" );
 #else
