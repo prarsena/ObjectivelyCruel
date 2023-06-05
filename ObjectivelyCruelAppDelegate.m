@@ -59,15 +59,6 @@
     self.pageHeader = [[NSTextView alloc] initWithFrame:headerFrame];
     
 #if MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_6
-	
-    //NSOperatingSystemVersion systemVersion = [[NSProcessInfo processInfo] operatingSystemVersion];
-	//NSString *versionString = [NSString stringWithFormat:@"%ld.%ld.%ld", systemVersion.majorVersion, systemVersion.minorVersion, systemVersion.patchVersion];
-	NSProcessInfo *myProcess = [NSProcessInfo processInfo];
-    NSString *version = [myProcess operatingSystemVersionString];
-    NSLog(@"%@", version);
-    NSString *originalString = @"Your OS is ";
-    NSString *concatedString = [originalString stringByAppendingString:version];
-    
     self.window = [[NSWindow alloc] initWithContentRect: windowFrame
                                               styleMask: NSWindowStyleMaskTitled |
                                                            NSWindowStyleMaskClosable |
@@ -76,9 +67,8 @@
                                                 backing: NSBackingStoreBuffered
                                                   defer: NO];
     self.window.title = @"Not Snow Leopard";
-    //self.pageHeader.string = @"Not Snow Leopard: %@", versionString;
+    self.pageHeader.string = @"Not Snow Leopard";
 
-    [self.pageHeader setString:(@"%@", concatedString)];
     [self.pageHeader setAlignment: NSTextAlignmentCenter];
     NSLog(@"Found greater os than snow" );
 #else
@@ -192,6 +182,11 @@
 	//[self.subheader setString:[[self.textView string] stringByAppendingString:concatedString]];
 	[self.subheader setString:version];
 
+    NSURL *url = [NSURL URLWithString:@"https://example.com?param1=value1&param2=value2"];
+    
+    [[NSWorkspace sharedWorkspace] openURL:url];
+    
+    [NSApp run];
 }
 
 - (void)buttonClicked:(id)sender {
